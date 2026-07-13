@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: #ffebf5;
+    border-color: rgb(255, 150, 13);
+}
