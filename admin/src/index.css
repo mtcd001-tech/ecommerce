@@ -3,7 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: Outfit;
+}
+
+select, input, textarea{
+    border: 1px solid rgb(255, 150, 13);
+    border-radius: 5px;
+    outline: none;
+}
+
 .active{
-    background-color: #ffebf5;
+    background-color: #e29300;
     border-color: rgb(255, 150, 13);
 }
