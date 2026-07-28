@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 import { Routes, Route } from "react-router-dom";
@@ -8,7 +8,6 @@ import Orders from "./pages/Orders";
 import Login from "./components/Login";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useEffect } from "react";
 
 export const backendUrl = import.meta.env.VITE_BACKEND_URL;
 export const currency = '$';
